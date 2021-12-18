@@ -10,7 +10,7 @@ We can Use this tool to find out sensitive data such as API keys, hardcoded cred
 ```
 ./key_url_finder.sh <Keyword_Here>
 ```
-For Example: 
+* * For Example: 
 ```
 ./key_url_finder.sh "Alzfdvrbrb244566ffdvgbgbt"
 ```
