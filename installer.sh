@@ -2,8 +2,6 @@
 
 apt-get install -y curl grep python3 python3-pip git
 
-chmod +x *.sh
-
 mkdir -p ~/tools
 
 cd ~/tools
