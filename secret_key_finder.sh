@@ -10,4 +10,4 @@ echo -e "\n\e[33m[+] Please wait... While urls's validation is in process\e[0m"
 while IFS= read Url; do curl "$Url" -s; done < urls.log >> urls-resp.log
 
 echo -e "\n\e[33m[+] Executing Secretfinder Tool on Fetched URL's\e[0m"
-python3 /opt/secretfinder/SecretFinder.py -i urls-resp.log -o cli
+python3 ~/tools/secretfinder/SecretFinder.py -i urls-resp.log -o cli
